@@ -42,7 +42,9 @@ display: flex;
 width: 20px;
 height: 20px;
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+  /* CSS styles to apply when screen width is 600px or less */
+  /* For example: */
   body {
     background-color: lightblue;
   }
