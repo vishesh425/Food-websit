@@ -49,3 +49,10 @@ height: 20px;
     background-color: lightblue;
   }
 }
+@media screen and (max-width: 360px) {
+  /* CSS styles to apply when screen width is 600px or less */
+  /* For example: */
+  body {
+    background-color: red;
+  }
+}
