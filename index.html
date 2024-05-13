@@ -11,6 +11,13 @@
       <div Class="logo_Conatiner">
         <h2 Class="logo">Restaurant Landing Page</h2>
       </div>
+
+        <div class="ham-menu">
+        <span></span>
+        <span></span>
+        <span> </span>
+        </div>
+
       <dv Class="link_container">
         <ul>
         	<li Class="link">
@@ -41,5 +48,17 @@
         </ul>
       </dv>
     </nav>
+
+    <script>
+       const hamMenu = document.querySelector('.ham-menu');
+       const linkc = document.querySelector('.link_container');
+// console.log("hello")
+       hamMenu.addEventListener('click',()=>{
+// console.log("hello")
+          linkc.classList.toggle('active');
+         hamMenu.classList.toggle('active');
+       })
+
+    </script>
 </body>
 </html>
