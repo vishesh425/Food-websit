@@ -1,58 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-.nav_Container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    height: 50px;
-}
-.logo_Conatiner{
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .nav_Container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        height: 50px;
+    }
+    .logo_Conatiner{
 
-}
-.logo{
- font-weight: 30px;
-}
-.link_container{
+    }
+    .logo{
+     font-weight: 30px;
+    }
+    .link_container{
 
-}
-.link_container ul{
-display: flex;
-}
-.link{
-    list-style: none;
-    padding: 0 10px;
-}
-.link a{
-    text-decoration: none;
-    color: black;
-    font-weight: 400;
-    font-size: 18px;
-}
-.link a:hover{
-    font-weight: 500;
-}
-.link_icon{
+    }
+    .link_container ul{
     display: flex;
-    gap: 10px;
-}
-.link .icon{
-width: 20px;
-height: 20px;
-}
-@media screen and (max-width: 600px) {
-  /* CSS styles to apply when screen width is 600px or less */
-  /* For example: */
-  body {
-    background-color: lightblue;
-  }
-}
-@media screen and (max-width: 360px) {
-  /* CSS styles to apply when screen width is 600px or less */
-  /* For example: */
-  body {
-    background-color: red;
-  }
-}
+    }
+    .link{
+        list-style: none;
+        padding: 0 10px;
+    }
+    .link a{
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        font-size: 18px;
+    }
+    .link a:hover{
+        font-weight: 500;
+    }
+    .link_icon{
+        display: flex;
+        gap: 10px;
+    }
+    .link .icon{
+    width: 20px;
+    height: 20px;
+    }
+    #hello{
+        background-color: red;
+    }
+    @media screen and (max-width: 600px) {
+      /* CSS styles to apply when screen width is 600px or less */
+      /* For example: */
+      body {
+        background-color: lightblue;
+
+      }
+      #hello{
+        background-color: lightblue;
+    }
+    }
+    @media screen and (max-width: 360px) {
+      /* CSS styles to apply when screen width is 600px or less */
+      /* For example: */
+      body {
+        background-color: red;
+      }  
+      #hello{
+        background-color: bluea;
+    }
+    }
