@@ -49,9 +49,9 @@
       height: 20px;
     }
 
-    #hello {
+    /* #hello {
       background-color: red;
-    }
+    } */
 
 
 
@@ -117,6 +117,7 @@
 
       .logo_Conatiner {
         width: 500px;
+        background-color: blue;
       }
 
       .logo {
